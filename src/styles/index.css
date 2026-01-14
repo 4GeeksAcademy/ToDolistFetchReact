@@ -1,11 +1,32 @@
-/* 
+body{
+    background-color: antiquewhite;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.completoincompleto{
+    background-color: rgb(235, 226, 214);
+}
+.task{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  gap: 10px;
+  width: 10rem;
+  background-color: #fdfde7;
+  margin: 5px auto;
+}
 
-*/
+.task:hover {
+  background-color: #f9fc56;
+}
+
+
+
+
+
